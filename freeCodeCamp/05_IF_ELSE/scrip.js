@@ -16,8 +16,7 @@ Si la temperatura está entre 0 y 25, imprime "La temperatura es agradable".
 Si la temperatura es mayor o igual a 25, imprime "Hace calor". 
 Utiliza declaraciones "if-else" para resolver este problema.*/      
 
-let temp = -1;
-
+let temp = -1
 if( temp < 0){
     console.log("Hace mucho frio : " + temp + "°C");
 }else if (temp > 0 && temp < 25){
