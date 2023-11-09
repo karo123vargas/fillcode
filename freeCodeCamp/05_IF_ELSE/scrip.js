@@ -45,3 +45,27 @@ if(userName === "kmorales" && password === "123456"){
 Escribe un programa en JavaScript que determine si el número es positivo, negativo o igual a cero. 
 Imprime el resultado en la consola. Utiliza una declaración "if-else if-else" para resolver este problema.
  */ 
+let Num = 6;
+if(Num < 0 ){
+    console.log("El numero" + Num + "Es negativo");
+}else if( Num === 0){
+    console.log("El numero es igual a 0");
+}else{
+    console.log("El numero " + Num + "Es positivo");
+}
+
+/*Problema 5: Supongamos que tienes una variable puntuación que almacena la puntuación de un juego. Escribe un programa en JavaScript que determine el rango de la puntuación:
+
+Si la puntuación es igual o mayor a 90, imprime "Excelente".
+Si la puntuación está entre 70 y 89, imprime "Buen trabajo".
+Si la puntuación es menor a 70, imprime "Necesitas mejorar". Utiliza declaraciones "if-else" para resolver este problema.*/
+
+let puntacion = 91;
+if(puntacion >= 90){
+    console.log("Excelente");
+}else if("puntacion >= 70 && puntacion <= 89"){
+    console.log("Buen trabajo"); 
+}else{
+    console.log("Necesitas mejoras");
+}
+    
