@@ -1,8 +1,13 @@
-let userName = "kmorales";
-let password ="123456";
+// vereficar contraseña y usuario 
+function userName(){
+    let userName =prompt("por favor ingrese su usuario ");
+let password =prompt("por favor ingrece su contraseña");
 
 if(userName === "kmorales" && password === "123456"){
-    console.log("Acceso concedido");
+    alert("Acceso concedido");
 } else {
-    console.log("Acceso denegado")
+    alert("Acceso denegado")
 }
+}
+
+
