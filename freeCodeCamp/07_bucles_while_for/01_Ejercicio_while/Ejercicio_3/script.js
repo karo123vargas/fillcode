@@ -1,0 +1,1 @@
+// mostrar los 10 primeros 10 pares

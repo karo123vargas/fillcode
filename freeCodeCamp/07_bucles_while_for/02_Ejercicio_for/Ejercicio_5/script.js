@@ -5,7 +5,7 @@ function encontrarPares(){
     let array = [];
 
     for(let i = 1; i <= n; i++){
-    array.push(i*2);
+    array.push(n);
     }
     alert(`primeros ${n} pares: ${array}`)
 }
