@@ -38,19 +38,14 @@
     </label>
     </ol>
     <ol>
-        <label>genero:
-            <input type="radio">
-        </label>
-        <label>Masculino
-        </label>
-        <input type="radio">
-        </label>
-        <label>femenino
-        </label>
-        <input type="radio">
-        </label>
-        <label>prefiero no decir 
-        </label>
+        <label>
+            <samp>genero:</samp>
+        <input type="radio" name="genero" id="genero-masculino">
+        <label for="genero-masculino">Masculino</label>
+        <input type="radio" name="genero" id="genero-femenino"></label>
+        <label for="genero-femenino">femenino</label>
+        <input type="radio" name="genero" id="genero-na">
+        <label for="genero-na">prefiero no decir </label>
     </ol>
     <ol>
         <input type="checkbox">
@@ -61,21 +56,27 @@
     </ol>
 
     <ol>
-        <textarea></textarea>
+        <textarea name="areatexto"></textarea>
     </ol>
     <ol>
         <label>Seleccionar tus intereses:</label>
     </ol>
     <ol> 
-        <select>
-            <option>Musica</option>
-            <option>Deportes</option>
-            <option>Viajes</option>
-            <option>Tecnologia</option>
-        </select>
+    <div class="">
+        <form action="#"> 
+            <label for="lang"></label>
+            <select name="mi_interes" id="lang" >
+                <option value="musica">Musica</option>
+                <option value="deportes">Deportes</option>
+                <option value="viajes">Viajes</option>
+                <option value="Tecnologia">Tecnologia</option>
+            </select>
+        </form>
+        
+    </div>
     </ol>
     <ol>
-        <button>Registrate</button>
+        <button>¡Registrate!</button>
     </ol>
 </body>
 </html>
