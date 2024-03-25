@@ -1,0 +1,36 @@
+body {background-color:#858585;}
+
+.Img1 {
+    background-color:#fbff04;
+    width: 1800px; 
+    height: 500px; 
+    top: 340px; 
+    left: 200px;
+    justify-content:space-around;
+    display: flex;
+    align-items: center ;
+
+}
+.Img2 {
+    background-color: #04cdf0;
+    width: 1800px;
+    height:500px;
+    top: 830px;
+    left:200px;
+    justify-content:space-around;
+    display: flex;
+    align-items: center ;
+    
+}    
+
+.Img3 {
+    background-color: #ff0000;
+    width: 1800px;
+    height:500px;
+    top:1250px;
+    left:200px;
+    justify-content:space-around;
+    display: flex;
+    align-items: center ;
+    
+}
