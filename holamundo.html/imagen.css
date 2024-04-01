@@ -1,4 +1,7 @@
-body {background-color:#858585;}
+body {background-color:#858585;
+    display: flex;
+    justify-content:space-between
+}
 
 .Img1 {
     background-color:#fbff04;
@@ -9,6 +12,7 @@ body {background-color:#858585;}
     justify-content:space-around;
     display: flex;
     align-items: center ;
+    justify-content: space-around;
 
 }
 .Img2 {
